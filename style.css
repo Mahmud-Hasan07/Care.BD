@@ -5,11 +5,6 @@ body::before {
 }
 
 
-#map {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-}
 
 
 
@@ -33,14 +28,9 @@ body::before {
 } */
 
 .topFixedBanner{
-    background-image:url(img/logoup.png);
-    width: 1200px;
-    height: 500px;
-    background-attachment: fixed;
-    background-repeat: no repeat;
-    background-size:cover; 
+    transform: translateY(-75px);
+    height: 335px;
 }
-
 
 .nav-link {
     font-size: large;
@@ -50,4 +40,12 @@ body::before {
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
+
+
+  
+  .navbar-brand {
+    transform: translateY(-15px);
+    height: 70px;
+    line-height: 20px;
+  }
 
