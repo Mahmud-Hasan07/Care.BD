@@ -18,3 +18,36 @@ body::before {
         width: 50%;
     }
 }
+
+/* .preloader{
+    background: center;
+    background-color: #ffffff;
+    background-image: url(../img/loader.gif);
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1100;
+    width: 100%;
+    height: 100%;
+} */
+
+.topFixedBanner{
+    background-image:url(img/logoup.png);
+    width: 1200px;
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: no repeat;
+    background-size:cover; 
+}
+
+
+.nav-link {
+    font-size: large;
+    display: block;
+    padding: .5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
