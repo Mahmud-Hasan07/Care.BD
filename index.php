@@ -14,7 +14,7 @@
 
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <title>Care.BD</title>
   </head>
@@ -23,7 +23,7 @@
     <!--  Navbar  -->
     <nav class="navbar navbar-expand-lg bg-light navbar-light py-0 fixed-top">
       <div class="container">
-        <a href="index.html" class="navbar-brand">
+        <a href="index.php" class="navbar-brand">
           <img style="width: 145px; height: 90px;" src="img/Artboard – 1.svg" alt="Company Logo">
         </a>
 
@@ -63,7 +63,7 @@
               <a href="#" class="nav-link">Contact</a>
             </li>
             <li class="nav-item">
-              <a href="sign.php" class="nav-link">Sign In</a>
+              <a href="signin.php" class="nav-link">Sign In</a>
             </li>
           </ul>
         </div>
@@ -172,26 +172,41 @@ $a = "Some freakin' ";
             </div>
           </div>
 
+        </div>
+      </div>
+    </Section>
+
+    <Section id="services" class="p-5 bg-white">
+      <div class="container">
+        <div class="row g-4">
+
           <div class="col-md-6 col-lg-4">
             <div class="card bg-light">
               <div class="card-body text-center">
                 <img src="" class="rounded-cirle mb-3" alt="">
                 <h3 class="card-title mb-3">Food for Children</h3>
-                <p class="card-text"><?php echo $a; ?>Food for Children</p>                
+                <p class="card-text"><?php echo $a; ?>Food for Children</p>           
               </div>
             </div>
           </div>
+
+        </div>
+      </div>
+    </Section>
+
+   <Section id="services" class="p-5 bg-secondary">
+      <div class="container">
+        <div class="row g-4">
 
           <div class="col-md-6 col-lg-4">
             <div class="card bg-light">
               <div class="card-body text-center">
                 <img src="" class="rounded-cirle mb-3" alt="">
                 <h3 class="card-title mb-3">IT Support</h3>
-                <p class="card-text"><?php echo $a; ?>IT Support</p>                
+                <p class="card-text"><?php echo $a; ?>IT Support</p>           
               </div>
             </div>
           </div>
-
 
         </div>
       </div>

@@ -49,3 +49,14 @@ body::before {
     line-height: 20px;
   }
 
+
+
+  .container .jumbotron, .container-fluid .jumbotron {
+    margin-top: 105px;
+    transform: translateX(-30px);
+    width: 1349px;
+    height: 380px;
+    border-radius: 5px;
+    background-color: #e9eceffa;
+    color: inherit;
+}
