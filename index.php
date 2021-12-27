@@ -62,6 +62,9 @@
             <li class="nav-item">
               <a href="#" class="nav-link">Contact</a>
             </li>
+            <li class="nav-item">
+              <a href="sign.php" class="nav-link">Sign In</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -90,8 +93,10 @@
 
 
 
-    <!--  Boxes  -->
-    <section class="p-5">
+
+    <!--  Boxes Starting  -->
+
+    <!-- <section class="p-5">
       <div class="container">
         <div class="row text-center g-4">
           <div class="col-md">
@@ -138,80 +143,92 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
+    <!--  Boxes Ending  -->
 
 
+<?php
+
+$a = "Some freakin' ";
+?>
     <!--  Services -->
+
+
+    <h2 class="text-center mt-5 pb-2">Our Services</h2>
 
     
     <Section id="services" class="p-5 bg-secondary">
       <div class="container">
-        <h2 class="text-center text-white">Our Services</h2>
         <div class="row g-4">
-          <div class="col-md-6 col-lg-3">
+
+          <div class="col-md-6 col-lg-4">
             <div class="card bg-light">
               <div class="card-body text-center">
                 <img src="" class="rounded-cirle mb-3" alt="">
-                <h3 class="card-title mb-3"></h3>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam recusandae possimus minima hic facere incidunt.</p>
-                <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                <h3 class="card-title mb-3">Cyber Helpline</h3>
+                <p class="card-text"><?php echo $a; ?>Cyber Helpline</p>           
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
+
+          <div class="col-md-6 col-lg-4">
             <div class="card bg-light">
               <div class="card-body text-center">
                 <img src="" class="rounded-cirle mb-3" alt="">
-                <h3 class="card-title mb-3"></h3>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam recusandae possimus minima hic facere incidunt.</p>
-                <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                <h3 class="card-title mb-3">Food for Children</h3>
+                <p class="card-text"><?php echo $a; ?>Food for Children</p>                
               </div>
             </div>
           </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="" class="rounded-cirle mb-3" alt="">
+                <h3 class="card-title mb-3">IT Support</h3>
+                <p class="card-text"><?php echo $a; ?>IT Support</p>                
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </Section>
 
 
 
-
-
     <!--  Footer  -->
 
-    <div class="container-fluid text-center footerSection">
+    <div class="container-fluid text-center footerSection bg-dark">
       <div class="row p-5">
-        <h1>Join Us</h1>
+        <h1 class="text-white">Join Us</h1>
         <div class="col-lg-3 col-md-6 col-sm-12 p-3 text-justify">
-          <a href="#"><i class="fab fa-facebook fa-3x" style="color: black;"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-3x" style="color: white;"></i></a>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 p-3 text-justify">
-          <a href="#"><i class="fab fa-twitter-square fa-3x" style="color: black;"></i></a>
+          <a href="#"><i class="fab fa-twitter-square fa-3x" style="color: white;"></i></a>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 p-3 text-justify">
-          <a href="#"><i class="fab fa-linkedin fa-3x" style="color: black;"></i></a> 
+          <a href="#"><i class="fab fa-linkedin fa-3x" style="color: white;"></i></a> 
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 p-3 text-justify">
-          <a href="#"><i class="fab fa-instagram-square fa-3x" style="color: black;"></i></a> 
+          <a href="#"><i class="fab fa-instagram-square fa-3x" style="color: white;"></i></a> 
         </div>
       </div>
       <div class="row pb-4">
-          <div class="col-lg-4 col-md-6 col-sm-12 text-justify">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-justify text-white">
               <h1 class="serviceName">Reach Us</h1>
               <a href="#"><i class="bi bi-envelope text-dark mx-2"></i>contact@carebd.com</a>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-justify">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-justify text-white">
               <h1 class="serviceName">Information</h1>
               <a href="#">About Us</a><br>
               <a href="#">Policy Networks</a><br>
               <a href="#">Contact Us</a>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-justify">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-justify text-white">
               <h1 class="serviceName">Legal</h1>
               <a href="#">Refund Policy</a><br>
               <a href="#">Terms and Condition</a><br>
